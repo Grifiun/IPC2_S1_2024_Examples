@@ -1,0 +1,3 @@
+# Ignorar carpetas específicas
+.idea/
+.venv/
