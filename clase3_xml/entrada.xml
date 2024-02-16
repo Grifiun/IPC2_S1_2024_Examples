@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <carceles>
   <carcel nombre="Carcel De Seguridad" nivel="5" numeroCelda="4">
+    <celda nivel="1" numeroCelda="1">Morty</celda>
     <celda nivel="1" numeroCelda="1">Michael Johnson</celda>
     <celda nivel="1" numeroCelda="2">Sarah Martinez</celda>
     <celda nivel="2" numeroCelda="1">Robert Davis</celda>
