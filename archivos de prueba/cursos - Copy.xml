@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<course_list>
+   <course>
+       <code>001</code>
+       <name>Matematica Basica 1</name>
+       <credits_value>7</credits_value>
+   </course>
+   <course>
+       <code>002</code>
+       <name>Matematica Basica 2</name>
+       <credits_value>7</credits_value>
+   </course>
+   <course>
+       <code>003</code>
+       <name>Matematica Intermedia 1</name>
+       <credits_value>10</credits_value>
+   </course>
+   <course>
+       <code>004</code>
+       <name>Matematica Intermedia 2</name>
+       <credits_value>5</credits_value>
+   </course>
+   <course>
+       <code>005</code>
+       <name>Matematica Intermedia 3</name>
+       <credits_value>5</credits_value>
+   </course>
+   <course>
+       <code>006</code>
+       <name>Matematica Aplicada 1</name>
+       <credits_value>4</credits_value>
+   </course>
+   <course>
+       <code>007</code>
+       <name>Matematica Aplicada 2</name>
+       <credits_value>4</credits_value>
+   </course>
+   <course>
+       <code>008</code>
+       <name>Matematica Aplicada 3</name>
+       <credits_value>4</credits_value>
+   </course>
+   <course>
+       <code>009</code>
+       <name>Matematica aplicada 44</name>
+       <credits_value>4</credits_value>
+   </course>
+</course_list>
