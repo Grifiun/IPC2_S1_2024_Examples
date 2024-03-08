@@ -20,6 +20,11 @@ app.get('/', (req, res) => {
     res.render('index.ejs', { variable: 'Valor de la variable' });
 });
 
+app.get('/name', (req, res) => {
+    // Renderiza el archivo EJS y envía como respuesta
+    res.render('name.ejs');
+});
+
 app.listen(port, () => {
     console.log("Puerto expuesto: ", port);
 })
