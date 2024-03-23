@@ -6,7 +6,6 @@ const port = 3001;
 // Post para recibir informacion delicada
 // Delete para indicar que se debe de eliminar algo
 // GET para obtener informacion
-
 app.get("/recibirNombre", async (req, res) => {
     try{        
         const name = req.query.name;
