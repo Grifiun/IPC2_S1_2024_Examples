@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>    
+    
+    {% include 'components/navbar.html' %}
+
+    <div class="container">
+        <h1>Formulario de Registro</h1>
+        <form action="/procesar_formulario" method="post">
+            {% csrf_token %}
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="carnet">Carné:</label>
+            <input type="text" id="carnet" name="carnet"><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    {% include 'components/footer.html' %}
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
