@@ -1,0 +1,11 @@
+<!-- Heredamos de pagina.html -->
+{% extends 'base.html' %}
+
+
+<!-- pagina.html desarrolla cada bloque -->
+{% block title %}Página Específica Hija 1 - {{ block.super }}{% endblock %}
+
+{% block content %}
+<h1>Contenido Específico de la Página Hija 1</h1>
+<p>Este es el contenido único de esta página  Hija 1.</p>
+{% endblock %}

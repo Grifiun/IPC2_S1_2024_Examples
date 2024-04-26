@@ -66,4 +66,9 @@ def procesar_formulario_nombre(request):
     else:
         return HttpResponseBadRequest("Bad request")
     
+def pagina_hija_1(request):
+    return render(request, 'paginas_hija/pagina_hija1.html')
+
+def pagina_hija_2(request):
+    return render(request, 'paginas_hija/pagina_hija2.html')
 

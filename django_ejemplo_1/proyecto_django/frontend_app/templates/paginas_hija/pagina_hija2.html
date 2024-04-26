@@ -1,0 +1,29 @@
+<!-- Heredamos de pagina.html -->
+{% extends 'base.html' %}
+
+
+<!-- pagina.html desarrolla cada bloque -->
+{% block title %}Página Hija 2 Específica - {{ block.super }}{% endblock %}
+
+{% block content %}
+<h1>Contenido Específico de la Página Hija 2 </h1>
+<p>Este es el contenido único de esta página Hija 2 .</p>
+<p>The .table-bordered class adds borders to a table:</p>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+    </tbody>
+  </table>
+{% endblock %}
